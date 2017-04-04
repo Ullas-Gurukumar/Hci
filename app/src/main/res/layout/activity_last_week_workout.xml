@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.hci.ullas.workoutapp.LastWeekWorkout">
+    tools:context="com.example.pc.hci4020prototype.LastWeekWorkout">
 
     <TextView
         android:id="@+id/textView19"
