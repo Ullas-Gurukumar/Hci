@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">HCI4020Prototype</string>
+    <string name="title_activity_choose_prototype">ChoosePrototype</string>
+</resources>

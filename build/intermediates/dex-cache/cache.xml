@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/Ullas/Documents/FinalWorkoutApp/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6096648efe97526f5dd01cac39bd452d4ef6a6d9">
+        <dex dex="/Users/Ullas/Documents/FinalWorkoutApp/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_ca5636ff10eae9519b66e18ef9deb0859ed49e76/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Ullas/Documents/FinalWorkoutApp/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c82741bc129dd5f99f11a4ab8666ae24262053b6">
+        <dex dex="/Users/Ullas/Documents/FinalWorkoutApp/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_29be81fe592dc701ce0c02d5144301d2793203a8/classes.dex" />
+    </item>
+
+</items>
