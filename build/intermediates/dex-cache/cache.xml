@@ -3,21 +3,21 @@
 
     <item
         is-multidex="true"
-        jar="/Users/Ullas/Documents/FinalWorkoutApp/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="6096648efe97526f5dd01cac39bd452d4ef6a6d9">
-        <dex dex="/Users/Ullas/Documents/FinalWorkoutApp/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_ca5636ff10eae9519b66e18ef9deb0859ed49e76/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/Ullas/Documents/FinalWorkoutApp/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jar="C:\Users\PC\Desktop\Hci\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
         sha1="c82741bc129dd5f99f11a4ab8666ae24262053b6">
-        <dex dex="/Users/Ullas/Documents/FinalWorkoutApp/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_29be81fe592dc701ce0c02d5144301d2793203a8/classes.dex" />
+        <dex dex="C:\Users\PC\Desktop\Hci\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_e552d1e8a4f59d2df7289afa6d670ddcabd05e81\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\PC\Desktop\Hci\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="1168b0c88b2bac80ff0a1edaa7fb46f0dffd0f5f">
+        <dex dex="C:\Users\PC\Desktop\Hci\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_841833d7aa6cbba6a35b93b878a829328e3ff261\classes.dex" />
     </item>
 
 </items>

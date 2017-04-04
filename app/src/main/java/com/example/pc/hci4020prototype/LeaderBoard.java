@@ -39,6 +39,10 @@ static int tempps = 0;
     }
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+    //    ImageView img = (ImageView) findViewById(imageView);
+      //  img.setImageResource(R.mipmap.star);
+
+
 
         if(tempps == 0){
         setTitle(  getIntent().getStringExtra("yes"));}
