@@ -21,23 +21,25 @@
         android:layout_marginBottom="21dp"
         android:onClick="imageOpen"
         android:visibility="invisible"
-        app:srcCompat="@android:drawable/star_big_on"
-        tools:onClick="imageOpen" />
+        app:srcCompat="@mipmap/star"
+        tools:onClick="imageOpen"
+        tools:srcCompat="@mipmap/star" />
 
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="39dp"
-        android:adjustViewBounds="false"
-        android:onClick="imageOpen"
-        app:srcCompat="@android:drawable/star_big_on"
-        tools:onClick="imageOpen"
         android:layout_above="@+id/button6"
+        android:layout_marginBottom="39dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginRight="32dp"
         android:layout_toLeftOf="@+id/textView5"
         android:layout_toStartOf="@+id/textView5"
-        android:layout_marginRight="32dp"
-        android:layout_marginEnd="32dp" />
+        android:adjustViewBounds="false"
+        android:onClick="imageOpen"
+        app:srcCompat="@mipmap/star"
+        tools:onClick="imageOpen"
+        tools:srcCompat="@mipmap/star" />
 
     <ImageView
         android:id="@+id/imageView4"
@@ -46,8 +48,9 @@
         android:layout_alignTop="@+id/imageView"
         android:layout_centerHorizontal="true"
         android:onClick="imageOpen"
-        app:srcCompat="@android:drawable/star_big_on"
-        tools:onClick="imageOpen" />
+        app:srcCompat="@mipmap/star"
+        tools:onClick="imageOpen"
+        tools:srcCompat="@mipmap/star" />
 
     <ImageView
         android:id="@+id/imageView6"
@@ -57,41 +60,45 @@
         android:layout_alignStart="@+id/imageView5"
         android:layout_below="@+id/secondStar"
         android:onClick="imageOpen"
-        app:srcCompat="@android:drawable/star_big_on"
-        tools:onClick="imageOpen" />
+        app:srcCompat="@mipmap/star"
+        tools:onClick="imageOpen"
+        tools:srcCompat="@mipmap/star" />
 
     <ImageView
         android:id="@+id/imageView5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/imageView4"
         android:layout_marginLeft="29dp"
         android:layout_marginStart="29dp"
-        android:onClick="imageOpen"
-        app:srcCompat="@android:drawable/star_big_on"
-        tools:onClick="imageOpen"
-        android:layout_alignTop="@+id/imageView4"
+        android:layout_toEndOf="@+id/textView5"
         android:layout_toRightOf="@+id/textView5"
-        android:layout_toEndOf="@+id/textView5" />
+        android:onClick="imageOpen"
+        app:srcCompat="@mipmap/star"
+        tools:onClick="imageOpen"
+        tools:srcCompat="@mipmap/star" />
 
     <TextView
         android:id="@+id/textView7"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignEnd="@+id/imageView"
-        android:layout_alignRight="@+id/imageView"
-        android:layout_below="@+id/imageView4"
-        android:layout_marginTop="15dp"
-        android:text="Chris" />
+        android:text="Chris"
+        android:layout_above="@+id/button6"
+        android:layout_alignLeft="@+id/imageView"
+        android:layout_alignStart="@+id/imageView"
+        android:layout_marginLeft="17dp"
+        android:layout_marginStart="17dp" />
 
     <TextView
         android:text="Bob"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/textView6"
-        android:layout_alignBaseline="@+id/textView5"
-        android:layout_alignBottom="@+id/textView5"
-        android:layout_alignRight="@+id/imageView5"
-        android:layout_alignEnd="@+id/imageView5" />
+        android:layout_above="@+id/button6"
+        android:layout_alignLeft="@+id/button6"
+        android:layout_alignStart="@+id/button6"
+        android:layout_marginLeft="12dp"
+        android:layout_marginStart="12dp" />
 
     <TextView
         android:text="James"
@@ -117,26 +124,28 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_above="@+id/meStar"
+        android:layout_alignLeft="@+id/meStar"
+        android:layout_alignStart="@+id/meStar"
         android:layout_marginBottom="16dp"
         android:onClick="imageOpen"
         android:visibility="invisible"
-        app:srcCompat="@android:drawable/star_big_on"
+        app:srcCompat="@mipmap/star"
         tools:onClick="imageOpen"
-        android:layout_alignLeft="@+id/meStar"
-        android:layout_alignStart="@+id/meStar" />
+        tools:srcCompat="@mipmap/star" />
 
     <ImageView
         android:id="@+id/fourthStar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_above="@+id/thirdStar"
+        android:layout_alignLeft="@+id/thirdStar"
+        android:layout_alignStart="@+id/thirdStar"
         android:layout_marginBottom="21dp"
         android:onClick="imageOpen"
         android:visibility="invisible"
-        app:srcCompat="@android:drawable/star_big_on"
+        app:srcCompat="@mipmap/star"
         tools:onClick="imageOpen"
-        android:layout_above="@+id/thirdStar"
-        android:layout_alignLeft="@+id/thirdStar"
-        android:layout_alignStart="@+id/thirdStar" />
+        tools:srcCompat="@mipmap/star" />
 
     <ImageView
         android:id="@+id/fifthStar"
@@ -155,14 +164,15 @@
         android:id="@+id/thirdStar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_above="@+id/secondStar"
+        android:layout_alignLeft="@+id/secondStar"
+        android:layout_alignStart="@+id/secondStar"
         android:layout_marginBottom="17dp"
         android:onClick="imageOpen"
         android:visibility="invisible"
-        app:srcCompat="@android:drawable/star_big_on"
+        app:srcCompat="@mipmap/star"
         tools:onClick="imageOpen"
-        android:layout_above="@+id/secondStar"
-        android:layout_alignLeft="@+id/secondStar"
-        android:layout_alignStart="@+id/secondStar" />
+        tools:srcCompat="@mipmap/star" />
 
     <TextView
         android:id="@+id/textView9"
@@ -183,23 +193,5 @@
         android:layout_marginTop="22dp"
         android:text="Current Score: Bob is in the lead!"
         android:textSize="36sp" />
-
-    <TextView
-        android:id="@+id/textView32"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_above="@+id/thirdStar"
-        android:layout_toLeftOf="@+id/textView9"
-        android:layout_toStartOf="@+id/textView9"
-        android:text="\u2605" />
-
-    <Button
-        android:id="@+id/button10"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/imageView6"
-        android:layout_alignStart="@+id/imageView6"
-        android:layout_below="@+id/textView10"
-        android:text="\u2605" />
 
 </RelativeLayout>
