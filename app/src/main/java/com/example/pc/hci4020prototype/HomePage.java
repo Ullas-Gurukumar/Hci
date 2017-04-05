@@ -16,7 +16,7 @@ import java.util.List;
 
 public class HomePage extends AppCompatActivity {
 
-    private int runProgress = 50;
+    private int runProgress = 60;
     private int gymVisits = 80;
     private Handler handler = new Handler();
 
@@ -80,7 +80,7 @@ public class HomePage extends AppCompatActivity {
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 Intent i = new Intent(getApplicationContext(), WorkoutDetails.class);
                 i.putExtra("NAME", people[position]);
-                i.putExtra("RUN", runProgress - (position*5));
+                i.putExtra("RUN", runProgress - (position*20));
                 i.putExtra("GYM_VISIT", gymVisits - (position*20));
                 i.putExtra("PUSH_UPS", 40 - (position*10));
                 startActivity(i);
