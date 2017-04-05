@@ -146,18 +146,20 @@
         android:id="@+id/imageButton"
         android:layout_width="34dp"
         android:layout_height="33dp"
-        app:srcCompat="@android:drawable/ic_input_add"
+        android:onClick="addPushProress"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.971"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.463"
-        app:layout_constraintHorizontal_bias="0.971" />
+        app:srcCompat="@android:drawable/ic_input_add" />
 
     <ImageButton
         android:id="@+id/imageButton10"
         android:layout_width="34dp"
         android:layout_height="33dp"
+        android:onClick="addGymProress"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintHorizontal_bias="0.971"
         app:layout_constraintLeft_toLeftOf="parent"
@@ -170,6 +172,7 @@
         android:id="@+id/imageButton11"
         android:layout_width="34dp"
         android:layout_height="33dp"
+        android:onClick="addRunProress"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintHorizontal_bias="0.971"
         app:layout_constraintLeft_toLeftOf="parent"

@@ -81,7 +81,7 @@ public class HomePage extends AppCompatActivity {
                 Intent i = new Intent(getApplicationContext(), WorkoutDetails.class);
                 i.putExtra("NAME", people[position]);
                 i.putExtra("RUN", runProgress - (position*5));
-                i.putExtra("GYM_VISIT", gymVisits - (position*5));
+                i.putExtra("GYM_VISIT", gymVisits - (position*20));
                 i.putExtra("PUSH_UPS", 40 - (position*10));
                 startActivity(i);
             }
